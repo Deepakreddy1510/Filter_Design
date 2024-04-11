@@ -38,7 +38,7 @@ passband_y = [passband_lower_limit, passband_lower_limit, 1, 1]
 plt.fill(passband_x, passband_y, 'g', alpha=0.3, edgecolor='none')
 
 # Stopband
-stopband_x = [1.502, 2, 2, 1.502]
+stopband_x = [1.4949, 2, 2, 1.4949]
 stopband_y = [0, 0, stopband_upper_limit, stopband_upper_limit]
 plt.fill(stopband_x, stopband_y, 'r', alpha=0.3, edgecolor='none')
 

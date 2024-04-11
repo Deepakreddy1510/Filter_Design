@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 # Define the piecewise function h_LP(n)
 def h_LP(n):
     if n == 0:
-        return 0.025 / np.pi
+        return 0.019 / np.pi
     elif -48 <= n <= 48:
-        return (np.sin(0.025 * n * np.pi)) / (n * np.pi)
+        return (np.sin(0.019 * n * np.pi)) / (n * np.pi)
     else:
         return 0
 

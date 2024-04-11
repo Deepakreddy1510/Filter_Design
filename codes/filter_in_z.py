@@ -4,7 +4,7 @@ import sympy as sp
 s, z = sp.symbols('s z')
 
 # Given transfer function
-Ha_BP_s = 8.7661e-5 * s**4 / (s**8 + 0.1473*s**7 + 2.7921*s**6 + 0.3075*s**5 + 2.9035*s**4 + 0.2124*s**3 + 1.3327*s**2 + 0.0485*s + 0.2278)
+Ha_BP_s = 5.6489e-5 * s**4 / (s**8 + 0.1160*s**7 + 2.0588*s**6 + 0.1786*s**5 + 1.5790*s**4 + 0.0909*s**3 + 0.5345*s**2 + 0.0153*s + 0.0674)
 
 # Perform substitution
 substitution = ((1 - z**-1) / (1 + z**-1))

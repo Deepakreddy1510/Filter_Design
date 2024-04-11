@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 # Define the piecewise function h_BP(n)
 def h_BP(n):
     if n == 0:
-        return 0.025 / np.pi
+        return 0.019 / np.pi
     elif -48 <= n <= 48:
-        return (2 * np.cos(0.2225 * n * np.pi) * np.sin(0.025 * n * np.pi)) / (n * np.pi)
+        return (2 * np.cos(0.395 * n * np.pi) * np.sin(0.025 * n * np.pi)) / (n * np.pi)
     else:
         return 0
 
